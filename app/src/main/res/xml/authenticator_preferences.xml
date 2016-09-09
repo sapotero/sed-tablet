@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Настроки приложения" />
+    <CheckBoxPreference
+        android:key="isDebug"
+        android:summary="Позволяет собирать дополнительные данные для отладки"
+        android:title="Режим отладки" />
+    <SwitchPreference
+        android:key="logsVerbose"
+        android:summary="Логиновать действия пользователя"
+        android:title="Логирование" />
+
+    <PreferenceCategory android:title="Расширеные настройки" />
+    <CheckBoxPreference
+        android:key="isDebug"
+        android:summary="Позволяет собирать дополнительные данные для отладки"
+        android:title="Режим отладки" />
+</PreferenceScreen>
